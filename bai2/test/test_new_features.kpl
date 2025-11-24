@@ -1,0 +1,17 @@
+PROGRAM TestNewFeatures;
+VAR a, b : INTEGER;
+    s : STRING;
+    data : BYTES;
+BEGIN
+  // This is a single line comment
+  a := 2 ** 10;  // Power operator: 2^10 = 1024
+  b := 17 % 5;   // Modulo operator: 17 mod 5 = 2
+  
+  s := "Hello World";  // String type
+  
+  REPEAT
+    a := a + 1;
+  UNTIL a = 100;
+  
+  // Another comment
+END.
